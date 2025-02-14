@@ -1,0 +1,87 @@
+/* Common style */
+
+body {
+    background-color:rgb(199, 236, 239);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: rgb(138, 167, 169);
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    margin :auto;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.current-page {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(45, 66, 67) ;
+}
+
+/* Homepage style */
+
+.white-square {
+    background-image: url("./images/profile-img.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Timetable page */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(138, 167, 169) ;
+}
+
+td {
+    background-color: white;
+
+}
+
+#table-corner-top-right {
+    border-radius: 0px 10px 0px 0px;
+}
+
+#table-corner-bottom-right {
+    border-radius: 0px 0px 10px 0px;  
+}
+#table-corner-bottom-left {
+    border-radius: 0px 0px 0px 10px;  
+}
+#table-corner-top-left {
+    border-radius: 10px 0px 0px 0px;  
+}
+
